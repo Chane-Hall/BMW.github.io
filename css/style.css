@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'Credit';
+	src: url('fonts/Credit-Valley/CreditValley.ttf');}
+@font-face {
+	font-family: 'Kaushan';
+	src: url('fonts/kaushan-script/KaushanScript-Regular.otf');}
+@font-face {
+	font-family: 'enriqueta';
+	src: url('fonts/enriqueta/Enriqueta-Bold.otf');}
+* {
+	font-family: 'enriqueta';
+	font-size: 18px;}
+h1, h2 {
+	font-family: 'Kaushan';
+	weight: bold;
+	font-size: 32px;}
+a {
+	font-family: 'Credit';
+	weight: bold;
+	font-size: 32px;}
+* {
+	text-align: center;
+	color: white;}
+img.head {
+	height : 170px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;}
+img.cast {
+	height : 200px;}
+a.hs {
+	margin-top: 0px;
+	margin: 0px;
+	text-decoration: none;}
+ul>li, legend {
+	weight: bold;
+	font-size: 24px;
+	}
+ul.head {
+	margin-top:35px;
+	margin-bottom:0px;
+	margin-left: 0px;
+	margin-right: 40px;
+	text-align: center;}
+ul.head li {
+	margin: 0px;
+	background-image: url("../media/images/header/1vf.jpg");
+	display: inline-block;
+	padding: 6px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;}
+li.hd {
+	background-image: url('media/images/header/JC-SeaGreen.jpg');}
+ul.head li:hover {
+	text-decoration: underline;}
+body {
+	background: url("../media/images/header/170929-boymeetsworld-news.jpg") no-repeat fixed;
+	width:975px;}
+.bi {
+	color: black;
+	background: url("../media/screen-shot-2013-07-28-at-8-25-49-pm.jpg") no-repeat;
+	margin-left: 200;
+	margin-right: 200;
+	margin-top: 50;
+	margin-bottom: 50;}
+h1 {
+	text-align: center;}
+label {
+	display: block;}
+/*.merch {
+	background-image: url("../media/1vf.jpg");
+	margin-left:280px;
+	margin-right:280px;
+	padding-top: 50px;
+	padding-left:57px;
+	padding-right:57px;}*/
+.img {
+	width: 301px;}
+div.image img {
+	height: 220px;}
+/*.funfacts {
+	border-width: 10px;
+	margin-top: 0px;
+	margin-right: 62px;
+	margin-left: 62px;
+	padding-top: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url("../media/1vf.jpg");}
+/*figure img {
+	width: 770px;
+	margin: 0px;}
+/*#home {
+	margin-top: 0px;
+	margin-bottom: 0px;}
+	/*margin-right: 62px;
+	margin-left: 62px;*/
+/*.hp {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 62px;
+	margin-left: 62px;
+	background-image: url("../media/1vf.jpg");}
+div.image {
+	border-width: 5px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 62px;
+	margin-left: 62px;
+	background-image: url("../media/1vf.jpg");}*/
+fieldset {
+	margin-right: 62px;
+	margin-left: 62px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	background-image: url("../media/images/header/1vf.jpg");}
+/*[value="Check out"] {
+	background-color: black;}*/
+.cop label {
+	text-align: left;}
+input, select, option {
+	border: 1px solid black;
+	color:black;
+	text-align: left;	}
+img {
+	border: solid 3px black;}
+.funfacts, .image, .back  {
+	padding: 10px;
+	border: solid 2px white;
+	margin-right: 62px;
+	margin-left: 62px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	background-image: url("../media/images/header/1vf.jpg");}
+th, td {
+	border-collapse: collapse;
+	padding: 3px;
+	border: solid 2px white;}
+table {
+	padding: 3px;
+	border: solid 2px white;
+	margin: auto;
+	border-collapse: collapse;}
+.bi li {
+	color: black;}
+/*img and form hover*/
+input:focus, input:hover {
+	border: 1px solid #b1e1e4;}
+img.img:hover {
+	border: 3px solid #27B097;}
+a.btt {
+	border: 2px solid white;
+	padding: 6px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 24;
+	background-image: url("../media/images/header/1vf.jpg");
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: auto;}
+
+ol li>a {
+	color: black;}
+li.hd > a {
+	background-image: url("../media/images/header/JC-SeaGreen.jpg");
+	text-decoration: none;}
+	margin-left: auto;}
+a.btt:hover {
+	text-decoration: underline;}
+
+	
+	
+	

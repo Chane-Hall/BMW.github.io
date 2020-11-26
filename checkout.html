@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<title>BoyMeetsWorld-Checkout</title>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Chane Hall"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+	<body>
+	<!--header of each page-->
+	<!--page linking-->
+	<ul class="head" id="#top">
+		<li><a class="hs" href="index.html">Homepage</a></li>
+		<li><a class="hs" href="cast.html">Cast and Characters</a></li>
+		<li><a class="hs" href="gallery.html">Gallery</a></li>
+		<li><a class="hs" href="quote.html">Quotes</a></li>
+		<li><a class="hs" href="funfacts.html">Fun Facts</a></li>
+		<li><a class="hs" href="merch.html">Merchendice</a></li>
+	</ul>
+	<!--image header with series name-->
+	<img class="head" src="media/images/header/pixlr_20180407001450039.jpg" />
+	<!--end of header-->
+	<fieldset>
+	<!--Heading of page stled in Kaushan for a fun, informal impression-->
+	<h1>Checkout</h1>
+	</fieldset>
+	<div class="cop">
+	<form action="result.html" method="post">
+	<!--Oder form with categorised fieldsets-->
+	<fieldset>
+	<legend>Personal Information</legend>
+		<label class="co">First name<br />
+		<input type="text" name="name" /></label>
+		<!--control type 1 -->
+		<label class="co">Surname<br />
+		<input type="text" name="surname" /></label>
+		<label class="co">Email<br />
+		<input type="email" name="email" /></label>
+		<!--control type 2 -->
+		<label class="co">Phone number<br />
+		<input type="text" name="number" /></label>
+		<label class="co">If clothing is being ordered, choose a size.<br />
+			<select name="size">
+			<option value="XXS">XXS</option>
+			<option value="XS">XS</option>
+			<option value="S">S</option>
+			<option value="M">M</option>
+			<option value="L">L</option>
+			<option value="XL">XL</option>
+			<option value="XXL">XXL</option></select></label>
+			<!--control type 3 -->
+	</fieldset>
+	<fieldset>
+	<legend>Credit Card Information</legend>
+		<label class="co">Card number<br />
+		<input type="text" name="cardn" /></label>
+		<label class="co">Experation date<br />
+		<input type="text" name="experationdate" /></label>
+		<label class="co">Security code<br />
+		<input type="text" name="security" /></label>
+	</fieldset>
+	<fieldset>
+	<legend>Delivery Information</legend>
+		<label class="co">Country<br />
+		<input type="text" name="country" /></label>
+		<label class="co">Province<br />
+		<input type="text" name="province" /></label>
+		<label class="co">City<br />
+		<input type="text" name="city" /></label>
+		<label class="co">Address<br />
+		<input type="textarea" name="address" /></label>
+		<!--control type 4 -->
+		<label class="co">Zip code<br />
+		<input type="text" name="zipcode" /></label>
+	</fieldset>
+	<fieldset>
+	<legend>Feedback</legend>
+		<label class="co">How saticfied are with our service?<br />
+			<input type="radio" name="satisfied" value="verysatisfied"/>Very Satisfied<br />
+			<input type="radio" name="satisfied" value="satisfied"/>Satisfied<br />
+			<input type="radio" name="satisfied" value="notcare"/>Didn't Care<br />
+			<input type="radio" name="satisfied" value="dissatisfied"/>Dissatisfied<br />
+			<input type="radio" name="satisfied" value="verydissatisfied"/>Very Dissatisfied<br />
+		</label>
+		<!--control type 5 -->
+		<label class="co">If you would like to send us a picture of how you recieved your packadge <br />
+		to help improve our service, we would appriciate it.<br />
+		<input type="file" name="file" /></label>
+		<!--control type 6-->
+		<label class="co">Comment to improve our service...<br />
+		<input type="textarea" name="comments" /></label>
+	</fieldset>
+	<fieldset>
+	<legend></legend>
+		<input type="submit" value="Submit" />
+		<input type="reset" value="Reset" /><br />
+	</fieldset>
+	</div>
+	</form>
+	<!--Link to the top of the page -->
+	<a class="btt" href="#top">Back to Top</a>
+	<script src="css/scripts.js"></script>
+	</body>
+</html>
