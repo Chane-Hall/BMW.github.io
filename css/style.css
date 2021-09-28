@@ -13,8 +13,7 @@
 h1, h2 {
 	font-family: 'Kaushan';
 	weight: bold;
-	font-size: 32px;
-	background-color: rgba(196,164,132 ,0.5)}
+	font-size: 32px;}
 a {
 	font-family: 'Credit';
 	weight: bold;
@@ -58,7 +57,8 @@ ul.head li:hover {
 	text-decoration: underline;}
 body {
 	background: url("../media/images/header/a3.png") no-repeat fixed;
-	width:1198px;}
+	width:1198px;
+	background-color: rgba(196,164,132 ,0.5)}
 .bi {
 	color: black;
 	background: url("../media/screen-shot-2013-07-28-at-8-25-49-pm.jpg") no-repeat;
